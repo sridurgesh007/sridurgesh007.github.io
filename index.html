@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#087f7b">
+  <meta name="description" content="Sridurgesh Ravichandran — NUS Master of Computing (AI) candidate. AI for science, modelling cool things, protein and RNA modelling, and electron microscopy.">
+  <title>Sridurgesh — Personal Research Desktop</title>
+  <link rel="canonical" href="https://sridurgesh007.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="system-bar"><div class="system-left"><span class="system-mark" aria-hidden="true">✳</span><b>BioOS</b><span class="system-detail">Personal desktop</span></div><div class="system-right"><span class="live-dot"></span><span>Curiosity is online</span><time id="clock"></time></div></div>
+  <div class="desktop-decoration decor-rna" aria-hidden="true">A—U<br>G≡C<br>╰─╯</div>
+  <div class="desktop-decoration decor-cross" aria-hidden="true">✦</div>
+  <main class="browser-window" id="top">
+    <div class="window-title"><span><span aria-hidden="true">▣</span> sridurgesh — personal_research.html</span><div class="window-controls"><button title="Compact view" aria-label="Toggle compact browser controls" id="compact">_</button><button title="Expand window" aria-label="Toggle expanded desktop" id="expand">□</button><button title="About this desktop" aria-label="About this desktop" data-dialog="desktop">×</button></div></div>
+    <div class="browser-chrome"><div class="menu-row"><button data-scroll="top"><u>F</u>ile</button><button data-scroll="about"><u>A</u>bout</button><button data-scroll="research"><u>R</u>esearch</button><button data-dialog="resume">Ré<u>s</u>umé</button><button data-dialog="help"><u>H</u>elp</button><span>built for human connection ↗</span></div><div class="address-row"><span>Address</span><div class="address"><span aria-hidden="true">⌘</span> bio://sridurgesh/home<span class="address-security">✧</span></div><button class="go-button" data-scroll="research">Go ↵</button></div></div>
+    <div class="page">
+      <header class="site-header"><a class="wordmark" href="#top" aria-label="Sridurgesh home"><span class="monogram">s<span>✳</span></span><span>sridurgesh<span class="wordmark-dot">.</span></span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#research">Research</a><button class="nav-resume" data-dialog="resume">Résumé</button><button class="nav-connect" data-dialog="connect">Let’s connect <span>↗</span></button></nav></header>
+      <section class="hero" id="about">
+        <div class="hero-copy"><div class="eyebrow"><span class="tiny-squares" aria-hidden="true">▪ ▪ ▪</span> AI FOR SCIENCE</div><h1>Hi, I’m<br><span>Sridurgesh.</span><span class="heading-star" aria-hidden="true">✳</span></h1><p class="intro">Master of Computing (AI) · NUS<br>Curiosity across biology, models & matter.</p><p class="hero-description">I’m Sridurgesh Ravichandran. I work on AI for science<br class="desktop-break"> and enjoy modelling cool things, with thesis research<br class="desktop-break"> in protein and RNA modelling at the Yang Zhang Lab.</p><button class="bio-link" data-dialog="bio">A little more about me ↗</button><div class="hero-actions"><a class="retro-button lime" href="#research">Explore my research <span>↘</span></a><button class="retro-button pale" data-dialog="connect">Say hello <span>☺</span></button></div><div class="conference-note"><span class="note-icon" aria-hidden="true">⚑</span><span>Next stop: <b>AACL</b><span class="note-divider">/</span>Let’s exchange ideas.</span></div></div>
+        <div class="hero-art"><div class="art-label"><span>THE BEAUTY IN COMPLEXITY</span><span>FIG. 001</span></div><div class="science-window"><div class="science-title"><span><i></i> molecule_viewer.exe</span><button id="toggle-motion" aria-label="Pause molecular animation" title="Pause animation">Ⅱ</button></div><div class="science-canvas-wrap"><canvas id="molecule" width="440" height="340" aria-label="Decorative pixel illustration of a protein ribbon and an RNA stem-loop"></canvas><span class="canvas-tag protein-tag">PROTEIN</span><span class="canvas-tag rna-tag">RNA</span><span class="axis-label">x ↗<br>y →<br>z ↑</span><span class="canvas-coordinate">BIO / AI<br>∞ POSSIBILITIES</span></div><div class="science-status"><span><i></i> Exploring the possibility space</span><span>3D ↔</span></div></div><div class="art-sticker"><span aria-hidden="true">✧</span> life is the original algorithm.</div></div>
+      </section>
+      <div class="ticker research-motto" aria-label="Research philosophy"><p><i aria-hidden="true">✳</i> Taste is very important in research. <strong>Let’s filter out noise.</strong><i aria-hidden="true">✳</i></p></div>
+      <section class="research" id="research"><div class="section-header"><div><div class="eyebrow">OPEN FOLDERS / 01—03</div><h2>Inside the research folder<span>↴</span></h2></div><span class="section-caption">Ideas worth exploring.</span></div><div class="projects">
+        <button class="project" data-project="rna"><div class="project-bar"><span><span class="folder-symbol">▰</span> 01_rna_worlds</span><span>↗</span></div><div class="project-art mint"><canvas id="terrain-rna" width="360" height="190" aria-label="Pixel RNA stem-loop above an illustrated folding landscape"></canvas><span class="project-art-label">SEQUENCE → STRUCTURE</span></div><div class="project-copy"><div class="project-tags"><span>RNA</span><span>RNA LANGUAGE MODELS</span></div><h3>Reading between the bases <span>↗</span></h3><p>Retrieval and RNA language models for 3D structure prediction.</p><span class="project-footer"><span class="progress-status">Thesis · in progress</span><span>Open folder →</span></span></div></button>
+        <button class="project" data-project="protein"><div class="project-bar"><span><span class="folder-symbol">▰</span> 02_protein_thesis</span><span>↗</span></div><div class="project-art lavender"><canvas id="terrain-protein" width="360" height="190" aria-label="Pixel protein ribbon above an illustrated design landscape"></canvas><span class="project-art-label">FITNESS LANDSCAPES & EPISTASIS</span></div><div class="project-copy"><div class="project-tags"><span>PROTEINS</span><span>EPISTASIS</span></div><h3>Protein fitness & epistasis <span>↗</span></h3><p>Mutation interactions and fitness landscapes. Thesis in progress.</p><span class="project-footer"><span class="progress-status">Thesis · in progress</span><span>Open folder →</span></span></div></button>
+        <button class="project" data-project="microscopy"><div class="project-bar"><span><span class="folder-symbol">▰</span> 03_ipotnet_microscopy</span><span>↗</span></div><div class="project-art microscopy"><canvas id="terrain-microscopy" width="360" height="190" aria-label="Decorative pixel STEM scan beside a three-dimensional atomic lattice"></canvas><span class="project-art-label">ELECTRON MICROSCOPY × PHYSICS-INFORMED AI</span></div><div class="project-copy"><div class="project-tags"><span>STEM</span><span>INVERSE PROBLEMS</span></div><h3>iPotNET · beneath the pixels <span>↗</span></h3><p>Reconstructing atomic potentials from noisy electron microscopy images.</p><span class="project-footer">Manuscript under review <span>Open folder →</span></span></div></button>
+      </div><p class="draft-note">ACTIVE THESIS WORK + SCIENTIFIC ML / diagrams are stylised illustrations.</p>
+</section>
+      <section class="interests" id="interests">
+        <div class="eyebrow">RESEARCH INTERESTS / A FEW GOOD QUESTIONS</div>
+        <h2>What I’m curious about<span>✳</span></h2>
+        <p class="interest-intro">I like modelling mechanisms and interactions, especially in biology, and building things that help us ask better scientific questions.</p>
+        <div class="interest-topics">
+          <article><span class="interest-number">01 /</span><div><h3>Biological mechanisms & interactions</h3><p>Language models and structure prediction models that help us understand biological systems and how their parts interact.</p></div></article>
+          <article><span class="interest-number">02 /</span><div><h3>Structures, diffusion & control</h3><p>Diffusion models for 3D protein and RNA structure prediction, and algorithms for more controlled generation.</p></div></article>
+          <article><span class="interest-number">03 /</span><div><h3>Efficient, agentic research</h3><p>Frontier agentic workflows and computational efficiency. I’m currently building an efficient deep research framework for consumer-grade hardware.</p></div></article>
+          <article><span class="interest-number">04 /</span><div><h3>Reinforcement learning & decision-making</h3><p>I enjoy experimenting with on- and off-policy RL, mostly on partially observable decision problems (POMDPs), for model alignment, action control, and pruning in agentic workflows within test-time compute budgets.</p></div></article>
+          <article><span class="interest-number">05 /</span><div><h3>Training at scale</h3><p>I love training models at scale on SLURM clusters and watching the learning curves come to life in Weights & Biases.</p></div></article>
+          <article><span class="interest-number">06 /</span><div><h3>Science with real-world impact</h3><p>Working with scientific data across biology and materials science, with a focus on high-impact research and practical applications.</p></div></article>
+        </div>
+      </section>
+      <section class="publications" id="publications"><div class="section-header"><div><div class="eyebrow">THE READING ROOM / SELECTED PAPERS</div><h2>Ideas, written down<span>↴</span></h2></div><a class="scholar-link" href="https://scholar.google.com/citations?hl=en&amp;user=r71zLXIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></div>
+        <ol class="paper-list">
+          <li class="featured-paper"><div class="paper-meta"><span>AACL-IJCNLP 2026 · MAIN TRACK</span><span>SOLE AUTHOR</span></div><h3>Mechanistic Evidence Routing in Transformers: Margin-Gated Intervention for Retrieval-Conflict Hallucination</h3><p>Mechanistic interpretability and interventions for evidence-grounded language models.</p></li>
+          <li><div class="paper-meta"><span>ACM MULTIMEDIA 2026 · ACCEPTED</span><span>CO-FIRST AUTHOR</span></div><h3>SafeV-JEPA: World-Model Plausibility Lets You Measure Synthetic-Video Risks</h3><p>Research under Prof. Mohan Kankanhalli.</p></li>
+
+
+
+        </ol>
+      </section>
+      <section class="connect-section" id="connect"><div><div class="eyebrow">GOOD SCIENCE STARTS WITH A CONVERSATION</div><h2>Different tabs. Shared curiosity<span>✳</span></h2><p>Meeting at AACL? Let’s keep the conversation going.</p></div><button class="retro-button lime" data-dialog="connect">Open address book <span>↗</span></button></section>
+      <footer><span>© <span id="year">2026</span> Sridurgesh Ravichandran <span class="footer-star">✳</span> Made of curiosity & a few pixels.</span><a href="#top">Back to desktop ↑</a></footer>
+    </div><div class="browser-status"><span><span class="live-dot"></span> Page loaded. Make yourself at home.</span><span>Personal research desktop <span aria-hidden="true">◢</span></span></div>
+  </main>
+  <div class="taskbar"><button class="start-button" id="start-toggle" aria-expanded="false" aria-controls="start-menu"><span class="start-mark" aria-hidden="true">✳</span> Start</button><button class="task-active" data-scroll="top"><span aria-hidden="true">▣</span> sridurgesh — home</button><span class="taskbar-right"><span class="live-dot"></span> BIO / AI <span class="sound-icon" aria-hidden="true">♫</span></span></div>
+  <div class="start-menu" id="start-menu" hidden><div class="start-sidebar">BioOS <b>01</b></div><div><button data-scroll="about">☺ &nbsp; About Sridurgesh</button><button data-scroll="research">▰ &nbsp; Research folders</button><button data-dialog="resume">▤ &nbsp; Résumé</button><button data-dialog="connect">✉ &nbsp; Address book</button><hr><button id="theme-toggle">◐ &nbsp; Switch desktop colour</button></div></div>
+  <dialog id="info-dialog"><div class="window-title"><span id="dialog-title">address_book.exe</span><button class="dialog-close" aria-label="Close dialog">×</button></div><div class="dialog-content" id="dialog-content"></div><div class="dialog-bottom"><button class="retro-button pale dialog-close">Back to desktop ↵</button></div></dialog>
+  <div id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body></html>
